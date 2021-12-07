@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.3" serialNumber="urn:uuid:4ab2bda9-0b58-4469-9a22-9301e6c81923" version="1">
+    <metadata>
+        <timestamp>2021-11-23T10:07:07.625Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>CycloneDX</vendor>
+                <name>Node.js module</name>
+                <version>3.1.1</version>
+            </tool>
+        </tools>
+        <component type="library" bom-ref="pkg:npm/test-npm@1.0.0">
+            <name>test-npm</name>
+            <version>1.0.0</version>
+            <description>
+                <![CDATA[test-npm dtrack]]>
+            </description>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/test-npm@1.0.0</purl>
+        </component>
+    </metadata>
+    <components>
+        <component type="library" bom-ref="pkg:npm/node@17.1.0">
+            <name>node</name>
+            <version>17.1.0</version>
+            <description>
+                <![CDATA[node]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-512">d6083cd7447bb0ab4590260c74884ec980c2b91259c8bbcffa54d7f19f403008947473e878dbb4290379f42cc1b9de4bfef32d14f91bb02c163b2d5a4d838bf2</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/node@17.1.0</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>https://github.com/aredridel/node-bin-gen#readme</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/aredridel/node-bin-gen/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+https://github.com/aredridel/node-bin-gen.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+        <component type="library" bom-ref="pkg:npm/node-bin-setup@1.0.6">
+            <name>node-bin-setup</name>
+            <version>1.0.6</version>
+            <hashes>
+                <hash alg="SHA-512">b8f2315cd8acd4245bbf50f0a80c64801939345577b3b70c37f19fe79ea34b0ea306f57b71ae05f6544bffc7002dc65e71189b7aa53ee5d158a85166cefe5ad1</hash>
+            </hashes>
+            <licenses>
+                <license>
+                    <id>ISC</id>
+                </license>
+            </licenses>
+            <purl>pkg:npm/node-bin-setup@1.0.6</purl>
+        </component>
+        <component type="library" bom-ref="pkg:npm/package@1.0.1">
+            <name>package</name>
+            <version>1.0.1</version>
+            <description>
+                <![CDATA[Easy package.json exports.]]>
+            </description>
+            <hashes>
+                <hash alg="SHA-1">d25a1f99e2506dcb27d6704b83dca8a312e4edcc</hash>
+            </hashes>
+            <purl>pkg:npm/package@1.0.1</purl>
+            <externalReferences>
+                <reference type="website">
+                    <url>http://github.com/vesln/package</url>
+                </reference>
+                <reference type="issue-tracker">
+                    <url>https://github.com/vesln/package/issues</url>
+                </reference>
+                <reference type="vcs">
+                    <url>git+ssh://git@github.com/vesln/package.git</url>
+                </reference>
+            </externalReferences>
+        </component>
+    </components>
+</bom>
